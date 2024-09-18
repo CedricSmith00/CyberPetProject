@@ -3,11 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Beast Masters</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     
+   
+    <div class="nav">
+        <h1>Cyber Pet</h1>
+        <ul class="menu">
+            <li>wolf</li>
+            <li> polarbear</li>
+            <li>showleopard</li>
+           
+        </ul>
+    </div>
+
+    <div class="mainPetBox">
+        <div class="petBoxSingular" id="petBoxSingular">
+            <input type="text" class="petName" placeholder="wolf polarbear showleopard"></input>
+            <h4 class="petSubClass"><em>wolf</em></h4>
+            <img id="petIcon" class="petIcon">
+            <div class="petObjects">
+                <label for="objectLvlPlay" class="objectNames" id="objectPlay">Fun</label>
+                    <progress class="objectLevels" id="objectLvlPlay" max="100" value="50"> 50% </progress>
+                  
+                <label for="objectLvlHunger" class="objectNames" id="objectHunger">Hunger</label>
+                    <progress class="objectLevels" id="objectLvlHunger" max="100" value="60"> 60% </progress>
+             
+                <label for="objectLvlThirst" class="objectNames" id="objectThirst">Thirst</label>
+                    <progress class="objectLevels" id="objectLvlThirst" max="100" value="10"> 15% </progress>
+                 
+                <label for="objectLvlWalks" class="objectNames" id="objectWalks">Walks</label>
+                    <progress class="objectLevels" id="objectLvlWalks" max="100" value="90"> 70% </progress>
+                
+            </div>
+            <button type="submit" class="objectButtons" id="buttonPlayWith">Play With</button>
+            <button type="submit" class="objectButtons" id="buttonFeed">Give Food</button>
+            <button type="submit" class="objectButtons" id="buttonWater">Give Water</button>
+            <button type="submit" class="objectButtons" id="buttonWalk">Go For Walk</button>
+
+            <button type="submit" class="objectButtonsRIP" id="buttonKillPet">die</button>
+            <button type="submit" class="objectButtonsRIP" id="buttonRevivePet">Revive?</button>
+
+        </div>
+
+
+    </div>
+
 
     <script src="./mainScreen.js"></script>
 </body>
