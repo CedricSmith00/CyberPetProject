@@ -1,0 +1,22 @@
+body{
+    background-image: url ()
+}
+
+img{
+    height: 250px;
+    width: 250px;
+}
+
+h1{
+    text-align: center;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#polarBear, #wolf, #snowLeopard{
+    margin: 20px;
+}
