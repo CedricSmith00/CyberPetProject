@@ -4,11 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beast Masters</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
+    <h1>Beast Masters</h1>
+    <progress id="progressBar1" value="100" max="100"></progress> Health<br>
+    <progress id="progressBar3" value="100" max="100"></progress> Hunger<br>
+    <progress id="progressBar4" value="100" max="100"></progress> Tiredness<br>
+    <progress id="progressBar5" value="100" max="100"></progress> Thirst<br>
 
-    <script src="./mainScreen.js"></script>
+    <button id="startBtn">Start</button>
+    <button id="stopBtn">Stop</button>
+    <button id="food">eat</button>
+    <button id="sleep">Sleep</button>
+    <button id="drink">Drink</button>
+
+    <p id="message"></p>
+
+    <script src="statBars.js"></script>
 </body>
 </html>
