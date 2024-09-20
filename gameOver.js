@@ -95,6 +95,7 @@ const resetGame = () => {
     polarBear.style.display = 'block'
     snowLeopard.style.display = 'block'
     wolf.style.display = 'block'
+    subheading.style.display = 'block'
 }
 
 const checkGameOver = () => {
