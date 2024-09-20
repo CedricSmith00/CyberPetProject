@@ -31,6 +31,7 @@ const hideAllActions = () => {
     wolf.style.display = 'none'
     polarBear.style.display = 'none'
     snowLeopard.style.display = 'none'
+    subheading.style.display = 'none'
 }
 
 const hideAllStats = () => {
@@ -94,6 +95,7 @@ const resetGame = () => {
     polarBear.style.display = 'block'
     snowLeopard.style.display = 'block'
     wolf.style.display = 'block'
+    subheading.style.display = 'block'
 }
 const checkGameOver = () => {
     if (healthvalue == 0 || hungervalue == 0 || thirstvalue == 0 || tirednessvalue == 0) {
