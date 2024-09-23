@@ -60,9 +60,3 @@ class snowLeopard extends animal {
         this.thirst += 5
     }
 }
-
-
-const polarbear = new animal ('Bob')
-const Wolf = new animal ('Brenda')
-polarbear.stats()
-Wolf.stats()
